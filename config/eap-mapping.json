@@ -1,0 +1,29 @@
+[
+  {
+    "name": "notificatie",
+    "type": "voc",
+    "eap": "OSLO-Vocabularium-Burgerprofiel.eap",
+    "diagram": "OSLO-Notificatie",
+    "template": "notificatie-voc.j2",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Notificatie",
+    "config" : "config/config-voc.json",
+    "site": "site-skeleton"
+  },
+  {
+    "name": "notificatie-basis",
+    "type": "ap",
+    "eap": "OSLO-Notificatie-Basis-AP.eap",
+    "diagram": "OSLO-Notificatie-Basis",
+    "template": "notificatiecomponent-ap.j2",
+    "title": "Notificatie Basis",
+	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "12-12-2018",
+    "contributors-file": "stakeholders.csv",
+    "contributors-column": "Notificatie",
+    "config" : "config/config-ap.json",
+    "site": "site-skeleton/notificatie-basis"
+  }
+]
