@@ -2,7 +2,7 @@
   {
     "name": "notificatie",
     "type": "voc",
-    "eap": "OSLO-Vocabularium-Burgerprofiel.eap",
+    "eap": "OSLO-Notificatie-VOC.eap",
     "diagram": "OSLO-Notificatie",
     "template": "notificatie-voc.j2",
 	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
