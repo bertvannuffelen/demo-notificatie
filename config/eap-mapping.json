@@ -5,12 +5,15 @@
     "eap": "OSLO-Notificatie-VOC.eap",
     "diagram": "OSLO-Notificatie",
     "template": "notificatie-voc.j2",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"title": "Notificatie",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Notificatie",
     "config" : "config/config-voc.json",
-    "site": "site-skeleton"
+    "site": "site-skeleton",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   },
   {
     "name": "notificatie-basis",
@@ -19,11 +22,13 @@
     "diagram": "OSLO-Notificatie-Basis",
     "template": "notificatiecomponent-ap.j2",
     "title": "Notificatie Basis",
-	"publication-state": "https://data.vlaanderen.be/id/conceptscheme/StandaardStatus/OntwerpdocumentInOntwikkeling",
-    "publication-date": "12-12-2018",
+	"publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpdocumentInOntwikkeling",
+    "publication-date": "07-02-2018",
     "contributors-file": "stakeholders.csv",
     "contributors-column": "Notificatie",
     "config" : "config/config-ap.json",
-    "site": "site-skeleton/notificatie-basis"
+    "site": "site-skeleton/notificatie-basis",
+	"feedbackurl": "https://github.com/informatievlaanderen/OSLO-Discussion", 
+    "standaardregisterurl" : "https://data.vlaanderen.be/standaarden"
   }
 ]
